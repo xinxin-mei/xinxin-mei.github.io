@@ -70,8 +70,8 @@ footer{padding:32px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 <body>
 <nav><div class="wrap">
   <span class="brand">Xinxin Mei</span>
-  <a href="#publications">Publications</a>
   <a href="#research">Research</a>
+  <a href="#publications">Publications</a>
   <a href="#experience">Experience</a>
   <a href="#contact">Contact</a>
 </div></nav>
@@ -82,12 +82,24 @@ footer{padding:32px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   <p class="role">Staff Computer Scientist · Thomas Jefferson National Accelerator Facility (JLab)</p>
   <p class="lede">A systems researcher working across HPC, networking, storage, and GPUs — from academia to industry to a DOE national lab. I study how large computing systems really behave, and use what I learn to make them faster and more efficient.</p>
   <div class="links">
-    <a href="https://github.com/cissieAB" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>GitHub</a>
+    <a href="https://github.com/xinxin-mei" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>GitHub</a>
     <a href="https://scholar.google.com/citations?user=1qnQTcEAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg>Google Scholar</a>
     <a href="https://www.linkedin.com/in/xinxinmei/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>LinkedIn</a>
     <a href="mailto:xmei@jlab.org"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>Email</a>
   </div>
 </header>
+
+<section id="research">
+  <h2>Research</h2>
+  <div class="grid">
+    <div class="card"><span class="tag">eBPF · telemetry</span><h3>Fine‑grained network telemetry</h3><p>eCounter / eCenter: inline per‑flow monitoring at millisecond resolution with eBPF on 100 Gbps NICs, plus real‑time visualization.</p></div>
+    <div class="card"><span class="tag">storage · streaming</span><h3>DAOS for scientific streaming</h3><p>Characterizing DAOS as a burst buffer for high‑rate experimental data — interfaces, tail latency, and cross‑platform behavior.</p></div>
+    <div class="card"><span class="tag">GPU · HPC</span><h3>GPU performance &amp; variability</h3><p>Benchmarking GPU performance and energy efficiency, and understanding variability across large clusters.</p></div>
+    <div class="card"><span class="tag">scheduling</span><h3>HPC scheduling &amp; simulation</h3><p>Heterogeneous cluster scheduling and job‑scheduling simulation for shared scientific computing facilities.</p></div>
+    <div class="card"><span class="tag">AI4NP</span><h3>AI surrogate models</h3><p>Contributions to the PHASM toolkit and AI for nuclear physics workflows.</p></div>
+    <div class="card"><span class="tag">DPU · SmartNIC</span><h3>Programmable infrastructure</h3><p>BlueField DPU testbeds for in‑network observability and offloaded data services.</p></div>
+  </div>
+</section>
 
 <section id="publications">
   <h2>Selected Publications</h2>
@@ -116,18 +128,6 @@ footer{padding:32px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   </div>
 </section>
 
-<section id="research">
-  <h2>Research</h2>
-  <div class="grid">
-    <div class="card"><span class="tag">eBPF · telemetry</span><h3>Fine‑grained network telemetry</h3><p>eCounter / eCenter: inline per‑flow monitoring at millisecond resolution with eBPF on 100 Gbps NICs, plus real‑time visualization.</p></div>
-    <div class="card"><span class="tag">storage · streaming</span><h3>DAOS for scientific streaming</h3><p>Characterizing DAOS as a burst buffer for high‑rate experimental data — interfaces, tail latency, and cross‑platform behavior.</p></div>
-    <div class="card"><span class="tag">GPU · HPC</span><h3>GPU performance &amp; variability</h3><p>Benchmarking GPU performance and energy efficiency, and understanding variability across large clusters.</p></div>
-    <div class="card"><span class="tag">scheduling</span><h3>HPC scheduling &amp; simulation</h3><p>Heterogeneous cluster scheduling and job‑scheduling simulation for shared scientific computing facilities.</p></div>
-    <div class="card"><span class="tag">AI4NP</span><h3>AI surrogate models</h3><p>Contributions to the PHASM toolkit and AI for nuclear physics workflows.</p></div>
-    <div class="card"><span class="tag">DPU · SmartNIC</span><h3>Programmable infrastructure</h3><p>BlueField DPU testbeds for in‑network observability and offloaded data services.</p></div>
-  </div>
-</section>
-
 <section id="experience">
   <h2>Experience</h2>
   <ul class="timeline">
@@ -140,10 +140,10 @@ footer{padding:32px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 <section id="contact">
   <h2>Contact</h2>
   <p>Thomas Jefferson National Accelerator Facility · Newport News, Virginia<br>
-  Email: <a href="mailto:xmei@jlab.org">xmei@jlab.org</a> · GitHub: <a href="https://github.com/cissieAB" target="_blank" rel="noopener">@cissieAB</a></p>
+  Email: <a href="mailto:xmei@jlab.org">xmei@jlab.org</a> · GitHub: <a href="https://github.com/xinxin-mei" target="_blank" rel="noopener">@xinxin-mei</a></p>
 </section>
 </main>
 
-<footer><div class="wrap">© 2026 Xinxin Mei · Last updated October 19, 2026</div></footer>
+<footer><div class="wrap">© 2026 Xinxin Mei · Last updated November 6, 2026</div></footer>
 </body>
 </html>
