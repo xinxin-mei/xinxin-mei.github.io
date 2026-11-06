@@ -60,10 +60,14 @@ h2{font-family:Fraunces,serif;font-weight:600;font-size:26px;margin:0 0 20px}
 .timeline .yr{font:13px "JetBrains Mono",monospace;color:var(--muted);padding-top:3px}
 .timeline b{font-weight:600}
 .timeline span{color:var(--muted)}
+.hero{display:grid;grid-template-columns:1fr 180px;gap:40px;align-items:center}
+.hero img{width:180px;height:180px;border-radius:50%;object-fit:cover;border:1px solid var(--rule)}
 footer{padding:32px 0 56px;color:var(--muted);font-size:13px;border-top:1px solid var(--rule)}
 @media (max-width:560px){
   .timeline li{grid-template-columns:1fr;gap:2px}
   header{padding:48px 0 28px}
+  .hero{grid-template-columns:1fr;gap:20px}
+  .hero img{order:-1;width:120px;height:120px}
 }
 </style>
 </head>
@@ -77,7 +81,8 @@ footer{padding:32px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 </div></nav>
 
 <main class="wrap">
-<header>
+<header class="hero">
+<div>
   <h1>Xinxin (Cissie) Mei</h1>
   <p class="role">Staff Computer Scientist · Thomas Jefferson National Accelerator Facility (JLab)</p>
   <p class="lede">A systems researcher working across HPC, networking, storage, and GPUs — from academia to industry to a DOE national lab. I study how large computing systems really behave and how to make them more efficient.</p>
@@ -87,6 +92,8 @@ footer{padding:32px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
     <a href="https://www.linkedin.com/in/xinxinmei/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>LinkedIn</a>
     <a href="mailto:xmei@jlab.org"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>Email</a>
   </div>
+</div>
+<img src="images/headshot.jpg" alt="Xinxin (Cissie) Mei" width="180" height="180">
 </header>
 
 <section id="research">
