@@ -62,6 +62,7 @@ h2{font-family:Fraunces,serif;font-weight:600;font-size:26px;margin:0 0 20px}
 .timeline span{color:var(--muted)}
 .hero{display:grid;grid-template-columns:1fr 180px;gap:40px;align-items:center}
 .hero img{width:180px;height:180px;border-radius:50%;object-fit:cover;border:1px solid var(--rule)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 footer{padding:32px 0 56px;color:var(--muted);font-size:13px;border-top:1px solid var(--rule)}
 @media (max-width:560px){
   .timeline li{grid-template-columns:1fr;gap:2px}
@@ -83,7 +84,7 @@ footer{padding:32px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 <main class="wrap">
 <header class="hero">
 <div>
-  <h1>Xinxin (Cissie) Mei</h1>
+  <h1 class="sr-only">Xinxin (Cissie) Mei</h1>
   <p class="role">Staff Computer Scientist · <a href="https://www.jlab.org" target="_blank" rel="noopener">Thomas Jefferson National Accelerator Facility (JLab)</a></p>
   <p class="lede">A systems researcher working across HPC, networking, storage, and GPUs — from academia to industry to a DOE national lab. I study how large computing systems really behave and how to make them more efficient.</p>
   <div class="links">
